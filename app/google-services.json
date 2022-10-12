@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1067224927950",
+    "project_id": "pocketwise-expense-manager",
+    "storage_bucket": "pocketwise-expense-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067224927950:android:d42b8ffcae510bea054a9f",
+        "android_client_info": {
+          "package_name": "com.example.pocketwiseexpensemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067224927950-08e7hcr73jc0djh27pp69i30qc7i3rah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1RHw6FKFN9L6BYS1aS-FEt9Onss4wscQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067224927950-08e7hcr73jc0djh27pp69i30qc7i3rah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

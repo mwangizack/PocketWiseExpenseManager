@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity">
+    <TextView
+        android:id="@+id/mTvMyProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/mTvLoggedInOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logged in on: "
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/profile_placeholder"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/mTvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textColor="@color/text_main"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/mTvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/text_main"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/mBtnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:background="@color/pocketWise_purple"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

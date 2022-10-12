@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:gravity="center_vertical"
+    android:clickable="true"
+    android:background="?selectableItemBackground">
+    <LinearLayout
+        android:id="@+id/labelamount_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mTvLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:text="Rent"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/mTvAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:text="Ksh 10000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelamount_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mTvDescription"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="12dp"
+            android:text="Overdue rent from last month, August"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</RelativeLayout>
